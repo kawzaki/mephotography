@@ -1,0 +1,90 @@
+:root {
+  /* Color Palette */
+  --bg-primary: #fdfaf5;
+  --bg-secondary: #f4efea;
+  --text-primary: #2d2a26;
+  --text-secondary: #5a544d;
+  --accent: #d4a373;
+  --accent-light: #faedcd;
+  --white: #ffffff;
+
+  /* Typography */
+  --font-arabic: 'Tajawal', sans-serif;
+  --font-serif: 'Playpen Sans Arabic', cursive;
+  --font-sans: 'Inter', sans-serif;
+
+  /* Spacing */
+  --section-padding: 8rem 2rem;
+  --container-max-width: 1200px;
+
+  /* Transitions */
+  --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-arabic);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  padding: var(--section-padding);
+}
+
+.story-text {
+  font-style: italic;
+  font-family: var(--font-serif);
+  color: var(--text-secondary);
+}
+
+/* RTL Specifics */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .serif-font {
+  font-family: 'Amiri', serif;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 4rem 1.5rem;
+  }
+}

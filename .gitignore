@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+*.py
+live_source.txt
+about_us_raw.txt
+.env
+.env.local
+!download_images.py
+!extract_urls.py
+# Actually, I'll keep the scripts out of the main repo unless asked, but I'll exclude the specific ones I made.
+extract_urls.py
+download_images.py
+node_modules
