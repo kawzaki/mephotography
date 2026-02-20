@@ -11,7 +11,7 @@ const packages = [
         title: 'باقة أول ٤٨ ساعة',
         price: '3,000 ر.س',
         subtitle: 'أنقى اللحظات',
-        image: '/files/package_first_48.png',
+        image: `${import.meta.env.BASE_URL}files/package_first_48.png`,
         features: [
             '٢٠ صورة الكترونية معدلة عالية الدقة',
             '١٠ صور مطبوعة بحجم ٤*٦ إنش',
@@ -36,9 +36,9 @@ const First48Session = () => {
                     loop
                     playsInline
                     className="hero-video"
-                    poster="/files/Saudi-arabia-newborn-photography-1-1.jpg"
+                    poster={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-1-1.jpg`}
                 >
-                    <source src="/files/99934007-74cd-4094-bd3b-1689ba77b4d2.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}files/99934007-74cd-4094-bd3b-1689ba77b4d2.mp4`} type="video/mp4" />
                 </video>
                 <div className="hero-overlay"></div>
                 <div className="container first48-hero-content">
@@ -60,7 +60,7 @@ const First48Session = () => {
             <section className="first48-intro">
                 <div className="container intro-grid">
                     <div className="intro-image">
-                        <img src="/files/Saudi-arabia-newborn-photography-1-1.jpg" alt="First 48 Hours" />
+                        <img src={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-1-1.jpg`} alt="First 48 Hours" />
                     </div>
                     <div className="intro-text">
                         <h2>خلف جدران المستشفى</h2>
@@ -125,7 +125,7 @@ const First48Session = () => {
             <footer className="footer">
                 <div className="container footer-content">
                     <div className="footer-logo">
-                        <img src="/files/logo.png" alt="M.E. Photography" className="logo-img" />
+                        <img src={`${import.meta.env.BASE_URL}files/logo.png`} alt="M.E. Photography" className="logo-img" />
                     </div>
                     <div className="social-links">
                         <Instagram size={20} />

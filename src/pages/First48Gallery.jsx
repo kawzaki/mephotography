@@ -7,79 +7,79 @@ import './First48Gallery.css'
 const galleryImages = [
     {
         id: 1,
-        src: '/files/Joud-7.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-7.gif`,
         tag: 'اللمسة الأولى',
         size: 'large'
     },
     {
         id: 2,
-        src: '/files/Joud-18.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-18.gif`,
         tag: 'هدوء المستشفى',
         size: 'small'
     },
     {
         id: 3,
-        src: '/files/Saudi-arabia-newborn-photography-2.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-2.gif`,
         tag: 'تفاصيل دقيقة',
         size: 'medium'
     },
     {
         id: 4,
-        src: '/files/Joud-8.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-8.gif`,
         tag: 'براءة نقية',
         size: 'tall'
     },
     {
         id: 5,
-        src: '/files/Joud-4.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-4.gif`,
         tag: 'ملامح اللقاء',
         size: 'medium'
     },
     {
         id: 6,
-        src: '/files/Saudi-arabia-newborn-photography-1-1.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-1-1.gif`,
         tag: 'نبض البداية',
         size: 'small'
     },
     {
         id: 7,
-        src: '/files/Joud-13.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-13.gif`,
         tag: 'حلم وردي',
         size: 'large'
     },
     {
         id: 8,
-        src: '/files/Saudi-arabia-newborn-photography-3.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-3.gif`,
         tag: 'سكون',
         size: 'medium'
     },
     {
         id: 9,
-        src: '/files/Saudi-arabia-newborn-photography-4.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-4.gif`,
         tag: 'اللقاء الأول',
         size: 'tall'
     },
     {
         id: 10,
-        src: '/files/Joud-11.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-11.gif`,
         tag: 'هدوء',
         size: 'small'
     },
     {
         id: 11,
-        src: '/files/Joud-16.gif',
+        src: `${import.meta.env.BASE_URL}files/Joud-16.gif`,
         tag: 'براءة تامة',
         size: 'medium'
     },
     {
         id: 12,
-        src: '/files/Saudi-arabia-newborn-photography-5.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-5.gif`,
         tag: 'تفاصيل دقيقة',
         size: 'small'
     },
     {
         id: 13,
-        src: '/files/Saudi-arabia-newborn-photography-6.gif',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-6.gif`,
         tag: 'نبض الحياة',
         size: 'medium'
     }

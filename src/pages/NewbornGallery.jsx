@@ -7,49 +7,49 @@ import './NewbornGallery.css'
 const galleryImages = [
     {
         id: 1,
-        src: '/files/Saudi-arabia-newborn-photography-9.jpg',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`,
         tag: 'هدوء تام',
         size: 'large'
     },
     {
         id: 2,
-        src: '/files/package_basic_newborn.png',
+        src: `${import.meta.env.BASE_URL}files/package_basic_newborn.png`,
         tag: 'تفاصيل صغيرة',
         size: 'small'
     },
     {
         id: 3,
-        src: '/files/package_standard_newborn.png',
+        src: `${import.meta.env.BASE_URL}files/package_standard_newborn.png`,
         tag: 'أنفاس البداية',
         size: 'medium'
     },
     {
         id: 4,
-        src: '/files/package_premium_newborn.png',
+        src: `${import.meta.env.BASE_URL}files/package_premium_newborn.png`,
         tag: 'حلم وردي',
         size: 'tall'
     },
     {
         id: 5,
-        src: '/files/Salman-13-2-1.jpg',
+        src: `${import.meta.env.BASE_URL}files/Salman-13-2-1.jpg`,
         tag: 'اللقاء الأول',
         size: 'medium'
     },
     {
         id: 6,
-        src: '/files/hero_newborn_storytelling_1771576098540.png',
+        src: `${import.meta.env.BASE_URL}files/hero_newborn_storytelling_1771576098540.png`,
         tag: 'براءة ملموسة',
         size: 'small'
     },
     {
         id: 7,
-        src: '/files/hero_newborn_moment_1771576210275.png',
+        src: `${import.meta.env.BASE_URL}files/hero_newborn_moment_1771576210275.png`,
         tag: 'نبض الانتظار',
         size: 'large'
     },
     {
         id: 8,
-        src: '/files/hero_newborn_storytelling_1771576142644.png',
+        src: `${import.meta.env.BASE_URL}files/hero_newborn_storytelling_1771576142644.png`,
         tag: 'حكاية ضحكة',
         size: 'tall'
     }

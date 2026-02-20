@@ -11,7 +11,7 @@ const packages = [
         title: 'العرض الأول',
         price: '3,500 ر.س',
         subtitle: 'أنفاس البداية',
-        image: '/files/package_basic_newborn.png',
+        image: `${import.meta.env.BASE_URL}files/package_basic_newborn.png`,
         features: [
             '٢٠ صوره الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٢٠ صوره',
@@ -26,7 +26,7 @@ const packages = [
         title: 'العرض الثاني',
         price: '6,800 ر.س',
         subtitle: 'حكاية الوصول',
-        image: '/files/package_standard_newborn.png',
+        image: `${import.meta.env.BASE_URL}files/package_standard_newborn.png`,
         features: [
             '٢٥ صورة الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٢٥ صوره',
@@ -43,7 +43,7 @@ const packages = [
         title: 'العرض الثالث',
         price: '9,850 ر.س',
         subtitle: 'الإرث العائلي',
-        image: '/files/package_premium_newborn.png',
+        image: `${import.meta.env.BASE_URL}files/package_premium_newborn.png`,
         features: [
             '٣٠ صورة الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٣٠ صوره',
@@ -72,9 +72,9 @@ const NewbornSession = () => {
                     loop
                     playsInline
                     className="hero-video"
-                    poster="/files/Saudi-arabia-newborn-photography-9.jpg"
+                    poster={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`}
                 >
-                    <source src="/files/babies.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}files/babies.mp4`} type="video/mp4" />
                 </video>
                 <div className="hero-overlay"></div>
                 <div className="container newborn-hero-content">
@@ -96,7 +96,7 @@ const NewbornSession = () => {
             <section className="newborn-intro">
                 <div className="container intro-grid">
                     <div className="intro-image">
-                        <img src="/files/Saudi-arabia-newborn-photography-9.jpg" alt="Newborn Session" />
+                        <img src={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`} alt="Newborn Session" />
                     </div>
                     <div className="intro-text">
                         <h2>بداية الحكاية</h2>
@@ -162,7 +162,7 @@ const NewbornSession = () => {
             <footer className="footer">
                 <div className="container footer-content">
                     <div className="footer-logo">
-                        <img src="/files/logo.png" alt="M.E. Photography" className="logo-img" />
+                        <img src={`${import.meta.env.BASE_URL}files/logo.png`} alt="M.E. Photography" className="logo-img" />
                     </div>
                     <div className="social-links">
                         <Instagram size={20} />

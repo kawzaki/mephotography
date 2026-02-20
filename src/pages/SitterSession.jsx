@@ -11,7 +11,7 @@ const packages = [
         title: 'العرض الأول',
         price: '3,500 ر.س',
         subtitle: 'الأساسيات المثالية',
-        image: '/files/package_basic_sitter_1771587796000.png',
+        image: `${import.meta.env.BASE_URL}files/package_basic_sitter_1771587796000.png`,
         features: [
             '٢٠ صوره الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٢٠ صوره',
@@ -26,7 +26,7 @@ const packages = [
         title: 'العرض الثاني',
         price: '6,800 ر.س',
         subtitle: 'الأكثر اكتمالاً',
-        image: '/files/package_standard_sitter_1771587941716.png',
+        image: `${import.meta.env.BASE_URL}files/package_standard_sitter_1771587941716.png`,
         features: [
             '٢٥ صورة الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٢٥ صوره',
@@ -43,7 +43,7 @@ const packages = [
         title: 'العرض الثالث',
         price: '9,850 ر.س',
         subtitle: 'التجربة الفاخرة',
-        image: '/files/package_premium_sitter_1771587959309.png',
+        image: `${import.meta.env.BASE_URL}files/package_premium_sitter_1771587959309.png`,
         features: [
             '٣٠ صورة الكترونية معدلة عالية الدقة',
             'USB عالي الجودة يشمل ٣٠ صوره',
@@ -72,9 +72,9 @@ const SitterSession = () => {
                     loop
                     playsInline
                     className="hero-video"
-                    poster="/files/Saudi-arabia-newborn-photography-8.jpg"
+                    poster={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-8.jpg`}
                 >
-                    <source src="/files/sitting-age.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}files/sitting-age.mp4`} type="video/mp4" />
                 </video>
                 <div className="hero-overlay"></div>
                 <div className="container sitter-hero-content">
@@ -96,7 +96,7 @@ const SitterSession = () => {
             <section className="sitter-intro">
                 <div className="container intro-grid">
                     <div className="intro-image">
-                        <img src="/files/Saudi-arabia-newborn-photography-8.jpg" alt="Sitter Session" />
+                        <img src={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-8.jpg`} alt="Sitter Session" />
                     </div>
                     <div className="intro-text">
                         <h2>لحظة استثنائية</h2>
@@ -160,7 +160,7 @@ const SitterSession = () => {
             <footer className="footer">
                 <div className="container footer-content">
                     <div className="footer-logo">
-                        <img src="/files/logo.png" alt="M.E. Photography" className="logo-img" />
+                        <img src={`${import.meta.env.BASE_URL}files/logo.png`} alt="M.E. Photography" className="logo-img" />
                     </div>
                     <div className="social-links">
                         <Instagram size={20} />

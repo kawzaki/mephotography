@@ -8,7 +8,7 @@ const categories = [
         id: 'newborn',
         title: 'المواليد',
         subtitle: 'أنفاس البداية',
-        image: '/files/Saudi-arabia-newborn-photography-9.jpg',
+        image: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`,
         description: 'توثيق الأيام الأولى لطفلك بكل حب وهدوء.',
         link: '/newborn-session'
     },
@@ -16,7 +16,7 @@ const categories = [
         id: 'maternity',
         title: 'الحوامل',
         subtitle: 'نبض الانتظار',
-        image: '/files/Saudi-Arabia-newborn-and-kids-photography-outdoor-7.jpg',
+        image: `${import.meta.env.BASE_URL}files/Saudi-Arabia-newborn-and-kids-photography-outdoor-7.jpg`,
         description: 'جمال الأمومة في أرقى حالاتها.',
         link: '#'
     },
@@ -24,7 +24,7 @@ const categories = [
         id: 'first48',
         title: '48 ساعة',
         subtitle: 'اللقاء الأول',
-        image: '/files/Salman-13-2-1.jpg',
+        image: `${import.meta.env.BASE_URL}files/Salman-13-2-1.jpg`,
         description: 'أولى اللحظات في المستشفى، حقيقية ومؤثرة.',
         link: '/first-48-session'
     },
@@ -32,7 +32,7 @@ const categories = [
         id: 'sitter',
         title: 'عمر الجلوس',
         subtitle: 'بهجة النمو',
-        image: '/files/Saudi-arabia-newborn-photography-8.jpg',
+        image: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-8.jpg`,
         description: 'احتفالاً بالخطوات الأولى والضحكات التي لا تنسى.',
         link: '/sitter-session'
     }

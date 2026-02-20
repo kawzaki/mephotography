@@ -57,7 +57,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled || !isHome ? 'scrolled' : ''}`}>
             <div className="container nav-content">
                 <Link to="/" className="logo">
-                    <img src="/files/logo.png" alt="M.E. Photography" className="logo-img" />
+                    <img src={`${import.meta.env.BASE_URL}files/logo.png`} alt="M.E. Photography" className="logo-img" />
                 </Link>
 
                 <div className="nav-links desktop-only">

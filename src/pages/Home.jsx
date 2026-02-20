@@ -20,7 +20,7 @@ function Home() {
                     className="hero-video"
                     poster="https://images.unsplash.com/photo-1544126592-807daa2b565b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
                 >
-                    <source src="/files/babies.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}files/babies.mp4`} type="video/mp4" />
                 </video>
                 <div className="hero-overlay"></div>
                 <div className="container hero-content">
@@ -107,7 +107,7 @@ function Home() {
             <footer className="footer">
                 <div className="container footer-content">
                     <div className="footer-logo">
-                        <img src="/files/logo.png" alt="M.E. Photography" className="logo-img" />
+                        <img src={`${import.meta.env.BASE_URL}files/logo.png`} alt="M.E. Photography" className="logo-img" />
                     </div>
                     <div className="social-links">
                         <Instagram size={20} />

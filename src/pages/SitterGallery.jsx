@@ -7,49 +7,49 @@ import './SitterGallery.css'
 const galleryImages = [
     {
         id: 1,
-        src: '/files/Saudi-arabia-newborn-photography-8.jpg',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-8.jpg`,
         tag: 'بهجة النمو',
         size: 'large'
     },
     {
         id: 2,
-        src: '/files/package_standard_sitter_1771587941716.png',
+        src: `${import.meta.env.BASE_URL}files/package_standard_sitter_1771587941716.png`,
         tag: 'براءة ملموسة',
         size: 'small'
     },
     {
         id: 3,
-        src: '/files/package_premium_sitter_1771587959309.png',
+        src: `${import.meta.env.BASE_URL}files/package_premium_sitter_1771587959309.png`,
         tag: 'حكاية ضحكة',
         size: 'medium'
     },
     {
         id: 4,
-        src: '/files/package_basic_sitter_1771587796000.png',
+        src: `${import.meta.env.BASE_URL}files/package_basic_sitter_1771587796000.png`,
         tag: 'تفاصيل صغيرة',
         size: 'tall'
     },
     {
         id: 5,
-        src: '/files/Saudi-Arabia-newborn-and-kids-photography-outdoor-7.jpg',
+        src: `${import.meta.env.BASE_URL}files/Saudi-Arabia-newborn-and-kids-photography-outdoor-7.jpg`,
         tag: 'نبض الحياة',
         size: 'medium'
     },
     {
         id: 6,
-        src: '/files/Saudi-Arabia-newborn-and-kids-photography-outdoor-10.jpg',
+        src: `${import.meta.env.BASE_URL}files/Saudi-Arabia-newborn-and-kids-photography-outdoor-10.jpg`,
         tag: 'إشراقة أولى',
         size: 'small'
     },
     {
         id: 7,
-        src: '/files/Saudi-arabia-newborn-photography-9.jpg',
+        src: `${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`,
         tag: 'هدوء تام',
         size: 'large'
     },
     {
         id: 8,
-        src: '/files/Salman-13-2-1.jpg',
+        src: `${import.meta.env.BASE_URL}files/Salman-13-2-1.jpg`,
         tag: 'حلم وردي',
         size: 'tall'
     }

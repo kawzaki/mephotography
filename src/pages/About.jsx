@@ -33,8 +33,8 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                         >
-                            <img src="/files/Saudi-arabia-newborn-photography-1-1.gif" alt="Studio Moment" className="story-img" />
-                            <img src="/files/Joud-13.gif" alt="Photography Work" className="story-img-secondary" />
+                            <img src={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-1-1.gif`} alt="Studio Moment" className="story-img" />
+                            <img src={`${import.meta.env.BASE_URL}files/Joud-13.gif`} alt="Photography Work" className="story-img-secondary" />
                         </motion.div>
 
                         <motion.div
