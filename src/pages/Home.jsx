@@ -18,7 +18,7 @@ function Home() {
                     loop
                     playsInline
                     className="hero-video"
-                    poster="https://images.unsplash.com/photo-1544126592-807daa2b565b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                    poster={`${import.meta.env.BASE_URL}files/Saudi-arabia-newborn-photography-9.jpg`}
                 >
                     <source src={`${import.meta.env.BASE_URL}files/babies.mp4`} type="video/mp4" />
                 </video>
